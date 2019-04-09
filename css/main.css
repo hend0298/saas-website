@@ -1,0 +1,28 @@
+h1, h2, h3 {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav a {
+  color: #000;
+  text-decoration: none;
+}
+
+nav {
+  background-color: #5495F4;
+}
+
+.about {
+  background-color: #C6D9F3;
+}
+
+.features h2,h3 {
+  color: #F27F26;
+}
