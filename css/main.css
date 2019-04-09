@@ -17,6 +17,11 @@ a {
 
 nav {
   background-color: #5495F4;
+  text-align: right;
+}
+
+nav a {
+  color: #fff;
 }
 
 .about, footer {
@@ -45,13 +50,27 @@ form {
   border-color: #000;
   background-color: #fff;
   color: #000;
-  align-items: center;
 }
 
 input {
   border-color: #000;
 }
  .btn-blue {
-   background-color: #C6D9F3;
+   background-color: #6ac7bb;
+   border-radius: 5px;
+ }
 
+ .banner {
+   display: block;
+   width: 100%;
+ }
+
+a:hover {
+   background-color: #F27F26;
+   color: #fff;
+ }
+
+ nav a:hover {
+   background-color: #5495F4;
+   color: #000;
  }
