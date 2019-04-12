@@ -1,4 +1,4 @@
-h1, h2, h3, a {
+h1, h2, h3, a, caption, th {
   font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -82,4 +82,8 @@ a:hover {
 .account {
   font-weight: normal;
   text-decoration: underline;
+}
+
+.scroll {
+  min-width: 50em;
 }
