@@ -94,10 +94,18 @@ a:hover {
 }
 
 .banner-content {
-  top: 20em;
   left: 5em;
 }
 
 .border-bottom {
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid #0F60EF;
+}
+
+.banner-content-pricing {
+  top: 5em;
+}
+
+@media only screen and (min-width: 60em) {
+
+
 }
