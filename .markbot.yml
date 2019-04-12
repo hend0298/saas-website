@@ -32,6 +32,7 @@ allFiles:
 html:
   - path: 'index.html'
   - path: 'tour.html'
+  - path: 'pricing.html'
     has:
       - 'table'
       - 'table > caption'
@@ -40,7 +41,6 @@ html:
       - 'th[scope]'
       - 'tr'
       - 'td'
-  - path: 'pricing.html'
   - path: 'sign-up.html'
     has:
       - ['form[method="POST"][action*="formspree.io"]', 'The `<form>` should submit to @@https://formspree.io/@@']

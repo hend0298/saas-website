@@ -87,3 +87,7 @@ a:hover {
 .scroll {
   min-width: 50em;
 }
+
+.logo {
+  width: 40%;
+}
