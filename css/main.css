@@ -1,10 +1,10 @@
 
 html {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 h1, h2, h3, a, caption, th {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 h1, h2, h4 {
@@ -17,7 +17,7 @@ a {
 }
 
 nav {
-  background-color: #5495F4;
+  background-color: #5495f4;
 }
 
 nav a {
@@ -25,15 +25,15 @@ nav a {
 }
 
 .about, footer {
-  background-color: #C6D9F3;
+  background-color: #c6d9f3;
 }
 
-.features h2,h3 {
-  color: #F27F26;
+.features h2, h3 {
+  color: #f27f26;
 }
 
 .sign-up {
-  background-color: #0F60EF;
+  background-color: #0f60ef;
 }
 
 form {
@@ -55,33 +55,33 @@ form {
 input {
   border-color: #000;
 }
- .btn-blue {
-   background-color: #6ac7bb;
-   border-radius: 5px;
- }
 
- .banner {
-   display: block;
-   width: 100%;
- }
+.btn-blue {
+  background-color: #6ac7bb;
+  border-radius: 5px;
+}
+
+.banner {
+  display: block;
+  width: 100%;
+}
 
 a:hover {
-   background-color: #F27F26;
-   color: #fff;
- }
+  background-color: #f27f26;
+  color: #fff;
+}
 
- nav a:hover {
-   background-color: #5495F4;
-   color: #000;
- }
+nav a:hover {
+  background-color: #5495f4;
+  color: #000;
+}
 
 .or {
-  color: #F27F26;
-  font-family: 'Josefin Sans', sans-serif;
+  color: #f27f26;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .account {
-  font-weight: normal;
   text-decoration: underline;
 }
 
@@ -98,7 +98,7 @@ a:hover {
 }
 
 .border-bottom {
-  border-bottom: 3px solid #0F60EF;
+  border-bottom: 3px solid #0f60ef;
 }
 
 .banner-content-pricing {
