@@ -11,8 +11,12 @@
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700|Open+Sans" rel="stylesheet">
 </head>
 <body>
-  <header role="banner">
-    <nav role="navigation">
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+  <header role="banner" tabindex="0">
+    <nav role="navigation" tabindex="0">
       <div class="grid grid-middle">
         <div class="unit xs-1 s-1-4 m-1-4 l-1-4 xl-1-4">
           <img src="images/logo.png" alt="Simple survey logo" class="img-flex wrapper logo">
@@ -38,7 +42,7 @@
       </div>
     </div>
   </header>
-  <main role="main">
+  <main role="main" tabindex="0">
     <section class="about island-2 text-center">
       <h2 class="push-0 nina">How it Works</h2>
       <p class="max-length">Simple Survey is here to make taking or making surveys as easy as can be! Simply sign up for free today and start creating surveys from our wide variety of templates or even create your own design.</p>
@@ -88,7 +92,7 @@
     </section>
     <section class="sign-up island">
       <h2 class="white zetta">Sign up for Free!</h2>
-      <form class="island max-length">
+      <form class="island max-length" method="POST" action="https://formspree.io/bradlet@algonquincollege.com">
         <div class="pad-b">
           <label for="name"></label>
           <input id="name" placeholder="Name" class="pad-b">
@@ -107,7 +111,7 @@
       </form>
     </section>
   </main>
-  <footer role="contentinfo" class="pad-t-2 pad-b-1-2 milli text-center">
+  <footer role="contentinfo" class="pad-t-2 pad-b-1-2 milli text-center" tabindex="0">
     <ul>
       <li class="inline gutter">
         <i class="icon i-48">
