@@ -98,30 +98,33 @@ nav a:hover {
   border-bottom: 3px solid #0f60ef;
 }
 
-.banner-content-pricing {
-  top: 3em;
-}
-
-.home-banner {
-  visibility: hidden;
-}
-
-@media only screen and (min-width: 25em) {
-
-  .home-banner {
-    visibility: hidden;
-  }
-
+.banner-content {
+  width: 100%;
+  padding: 1rem;
 }
 
 @media only screen and (min-width: 38em) {
 
-  .home-banner {
-    visibility: visible;
+  .banner-content {
+    position: absolute;
+    top: 3em;
+    max-width: 50%;
   }
 
-  .banner-content {
-    text-align: center;
+  .banner {
+    position: relative;
   }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .banner-content {
+    position: absolute;
+    top: 8em;
+    left: 3em;
+    max-width: 50%;
+  }
+
 
 }
