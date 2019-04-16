@@ -100,7 +100,10 @@ nav a:hover {
 
 .banner-content {
   width: 100%;
-  padding: 1rem;
+}
+
+.click {
+  color: #000;
 }
 
 @media only screen and (min-width: 38em) {
@@ -115,6 +118,11 @@ nav a:hover {
     position: relative;
   }
 
+  .banner-content-pricing {
+    position: absolute;
+    top: 1em;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -125,6 +133,5 @@ nav a:hover {
     left: 3em;
     max-width: 50%;
   }
-
 
 }
