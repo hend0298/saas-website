@@ -7,7 +7,7 @@ h1, h2, h3, a, caption, th {
   font-family: "Josefin Sans", sans-serif;
 }
 
-h1, h2, h4 {
+h1, h2, h3, h4 {
   text-align: center;
 }
 
@@ -77,7 +77,7 @@ nav a:hover {
 }
 
 .or {
-  color: #f27f26;
+  color: #0f60ef;
   font-family: "Josefin Sans", sans-serif;
 }
 
@@ -93,10 +93,6 @@ nav a:hover {
   width: 40%;
 }
 
-.banner-content {
-  left: 5em;
-}
-
 .border-bottom {
   border-bottom: 3px solid #0f60ef;
 }
@@ -105,7 +101,26 @@ nav a:hover {
   top: 5em;
 }
 
-@media only screen and (min-width: 60em) {
+.home-banner {
+  visibility: hidden;
+}
 
+@media only screen and (min-width: 25em) {
+
+  .home-banner {
+    visibility: hidden;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .home-banner {
+    visibility: visible;
+  }
+
+  .banner-content {
+    text-align: center;
+  }
 
 }

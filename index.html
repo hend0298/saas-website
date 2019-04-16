@@ -16,7 +16,7 @@
     <li><a href="#nav">Jump to navigation</a></li>
   </ul>
   <header role="banner" tabindex="0">
-    <nav role="navigation" tabindex="0">
+    <nav role="navigation" id="nav" tabindex="0">
       <div class="grid grid-middle">
         <div class="unit xs-1 s-1-4 m-1-4 l-1-4 xl-1-4">
           <img src="images/logo.png" alt="Simple survey logo" class="img-flex wrapper logo">
@@ -32,7 +32,7 @@
       </div>
     </nav>
     <div class="banner relative">
-      <img src="images/banner-home.jpg" alt="Banner" class="img-flex wrapper banner">
+      <img src="images/banner-home.jpg" alt="Banner" class="img-flex wrapper banner home-banner">
       <div class="absolute banner-content pin-lc">
         <h1 class="border-bottom pad-b nina">Surveys Made Easy</h1>
         <h2 class="not-bold">Online surveys for everyone</h2>
@@ -42,7 +42,7 @@
       </div>
     </div>
   </header>
-  <main role="main" tabindex="0">
+  <main role="main" id="main" tabindex="0">
     <section class="about island-2 text-center">
       <h2 class="push-0 nina">How it Works</h2>
       <p class="max-length">Simple Survey is here to make taking or making surveys as easy as can be! Simply sign up for free today and start creating surveys from our wide variety of templates or even create your own design.</p>
@@ -92,18 +92,18 @@
     </section>
     <section class="sign-up island">
       <h2 class="white zetta">Sign up for Free!</h2>
-      <form class="island max-length" method="POST" action="https://formspree.io/bradlet@algonquincollege.com">
+      <form class="island max-length" method="POST" action="https://formspree.io">
         <div class="pad-b">
           <label for="name">Name</label>
-          <input id="name" class="pad-b">
+          <input id="name" class="pad-b" required>
         </div>
         <div class="pad-b">
           <label for="email">Email</label>
-          <input id="email">
+          <input id="email" required>
         </div>
         <div class="pad-b">
           <label for="password">Password</label>
-          <input id="password">
+          <input id="password" required>
         </div>
         <div class="center-content">
           <button type="submit" class="btn">Sign up</button>

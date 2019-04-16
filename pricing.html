@@ -15,8 +15,8 @@
     <li><a href="#main">Jump to main content</a></li>
     <li><a href="#nav">Jump to navigation</a></li>
   </ul>
-  <header role="banner" class="pad-b">
-    <nav role="navigation">
+  <header role="banner" class="pad-b" tabindex="0">
+    <nav role="navigation" id="nav" tabindex="0">
       <div class="grid grid-middle">
         <div class="unit xs-1 s-1-4 m-1-4 l-1-4 xl-1-4">
           <img src="images/logo.png" alt="Simple survey logo" class="img-flex wrapper logo">
@@ -31,121 +31,120 @@
         </div>
       </div>
     </nav>
-  </div>
-  <div class="banner relative">
-    <img src="images/pricing-banner.jpg" alt="Banner" class="img-flex wrapper">
-    <div class="absolute banner-content-pricing pin-tc">
-      <h1 class="push-0 border-bottom nina">There's a Plan for Everyone!</h1>
+    <div class="banner relative">
+      <img src="images/pricing-banner.jpg" alt="Banner" class="img-flex wrapper">
+      <div class="absolute banner-content-pricing pin-tc">
+        <h1 class="push-0 border-bottom nina">There's a Plan for Everyone!</h1>
+      </div>
     </div>
-  </div>
-</header>
-<main role="main">
-  <h2 class="push-0 yotta">Plenty to Choose From!</h2>
-  <h4 class="push-0 or bold">OR</h4>
-  <h4 class="push-0 exa">Create a <a href="sign-up.html" class="not-bold account">Free Account Now</a></h4>
-  <div class="table-wrapper scrollable gutter-2">
-    <table class="scroll">
-      <caption class="not-italic bold peta push-0 pad-t">Choose Your Plan</caption>
-      <thead>
-        <tr>
-          <th scope="col" class="giga">Features</th>
-          <th scope="col" class="giga">Standard</th>
-          <th scope="col" class="giga">Advantage</th>
-          <th scope="col" class="giga">Premier</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row">Number of surveys</th>
-          <td>Unlimited</td>
-          <td>Unlimited</td>
-          <td>Unlimited</td>
-        </tr>
-        <tr>
-          <th scope="row">Questions per survey</th>
-          <td>10 Questions</td>
-          <td>Unlimited</td>
-          <td>Unlimited</td>
-        </tr>
-        <tr>
-          <th scope="row">Number of responses</th>
-          <td>100 responses</td>
-          <td>Unlimited</td>
-          <td>Unlimited</td>
-        </tr>
-        <tr>
-          <th scope="row">Pop up online surveys</th>
-          <td>✓</td>
-          <td>✓</td>
-          <td>✓</td>
-        </tr>
-        <tr>
-          <th scope="row">Track email responses</th>
-          <td>✓</td>
-          <td>✓</td>
-          <td>✓</td>
-        </tr>
-        <tr>
-          <th scope="row">Recurring surveys</th>
-          <td></td>
-          <td>✓</td>
-          <td>✓</td>
-        </tr>
-        <tr>
-          <th scope="row">Accept payments</th>
-          <td></td>
-          <td></td>
-          <td>✓</td>
-        </tr>
-        <tr>
-          <th scope="row">Get responses via web, social or email</th>
-          <td></td>
-          <td></td>
-          <td>✓</td>
-        </tr>
-      </tbody>
+  </header>
+  <main role="main" id="main" tabindex="0">
+    <h2 class="push-0 yotta">Plenty to Choose From!</h2>
+    <h3 class="push-0 or bold giga">OR</h3>
+    <h4 class="push-0 exa">Create a <a href="sign-up.html" class="not-bold account">Free Account Now</a></h4>
+    <div class="table-wrapper scrollable gutter-2">
+      <table class="scroll">
+        <caption class="not-italic bold peta push-0 pad-t">Choose Your Plan</caption>
+        <thead>
+          <tr>
+            <th scope="col" class="giga">Features</th>
+            <th scope="col" class="giga">Standard</th>
+            <th scope="col" class="giga">Advantage</th>
+            <th scope="col" class="giga">Premier</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Number of surveys</th>
+            <td>Unlimited</td>
+            <td>Unlimited</td>
+            <td>Unlimited</td>
+          </tr>
+          <tr>
+            <th scope="row">Questions per survey</th>
+            <td>10 Questions</td>
+            <td>Unlimited</td>
+            <td>Unlimited</td>
+          </tr>
+          <tr>
+            <th scope="row">Number of responses</th>
+            <td>100 responses</td>
+            <td>Unlimited</td>
+            <td>Unlimited</td>
+          </tr>
+          <tr>
+            <th scope="row">Pop up online surveys</th>
+            <td>✓</td>
+            <td>✓</td>
+            <td>✓</td>
+          </tr>
+          <tr>
+            <th scope="row">Track email responses</th>
+            <td>✓</td>
+            <td>✓</td>
+            <td>✓</td>
+          </tr>
+          <tr>
+            <th scope="row">Recurring surveys</th>
+            <td></td>
+            <td>✓</td>
+            <td>✓</td>
+          </tr>
+          <tr>
+            <th scope="row">Accept payments</th>
+            <td></td>
+            <td></td>
+            <td>✓</td>
+          </tr>
+          <tr>
+            <th scope="row">Get responses via web, social or email</th>
+            <td></td>
+            <td></td>
+            <td>✓</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
-  </table>
-  <section class="sign-up island">
-    <h2 class="white zetta">Sign up for Free!</h2>
-    <form class="island max-length">
-      <div class="pad-b">
-        <label for="name"></label>
-        <input id="name" placeholder="Name" class="pad-b">
-      </div>
-      <div class="pad-b">
-        <label for="email"></label>
-        <input id="email" placeholder="Email">
-      </div>
-      <div class="pad-b">
-        <label for="password"></label>
-        <input for="password" placeholder="Password">
-      </div>
-      <div class="center-content">
-        <button type="submit" class="btn">Sign up</button>
-      </div>
-    </form>
-  </section>
-</main>
-<footer role="contentinfo" class="pad-t-2 pad-b-1-2 milli text-center">
-  <ul>
-    <li class="inline gutter">
-      <i class="icon i-48">
-        <img src="images/instagram.png">
-      </i>
-    </li>
-    <li class="inline gutter">
-      <i class="icon i-48">
-        <img src="images/facebook.png">
-      </i>
-    </li>
-    <li class="inline gutter">
-      <i class="icon i-48">
-        <img src="images/twitter.png">
-      </i>
-    </li>
-  </ul>
-  <p class="micro push-0">Simple Survey ©</p>
-</footer>
+    <section class="sign-up island">
+      <h2 class="white zetta">Sign up for Free!</h2>
+      <form class="island max-length" method="POST" action="https://formspree.io">
+        <div class="pad-b">
+          <label for="name">Name</label>
+          <input id="name" class="pad-b" required>
+        </div>
+        <div class="pad-b">
+          <label for="email">Email</label>
+          <input id="email" required>
+        </div>
+        <div class="pad-b">
+          <label for="password">Password</label>
+          <input id="password" required>
+        </div>
+        <div class="center-content">
+          <button type="submit" class="btn">Sign up</button>
+        </div>
+      </form>
+    </section>
+  </main>
+  <footer role="contentinfo" class="pad-t-2 pad-b-1-2 milli text-center" tabindex="0">
+    <ul>
+      <li class="inline gutter">
+        <i class="icon i-48">
+          <img src="images/instagram.png" alt="Instagram logo">
+        </i>
+      </li>
+      <li class="inline gutter">
+        <i class="icon i-48">
+          <img src="images/facebook.png" alt="Facebook logo">
+        </i>
+      </li>
+      <li class="inline gutter">
+        <i class="icon i-48">
+          <img src="images/twitter.png" alt="Twitter logo">
+        </i>
+      </li>
+    </ul>
+    <p class="micro push-0">Simple Survey ©</p>
+  </footer>
 </body>
 </html>
